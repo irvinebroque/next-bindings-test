@@ -18,10 +18,11 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.8.2",
+    "@cloudflare/next-on-pages": "^0.0.0-2b5c8f2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "miniflare": "^3.20231030.4",
     "typescript": "^5",
     "vercel": "^33.0.1"
   }
