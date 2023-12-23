@@ -12,6 +12,9 @@ if (process.env.NODE_ENV === 'development') {
 
         // When Pages has wrangler.toml, just read from that in current directory and can skip this config
         setupDevBindings({
+            ai: {
+                bindingName: 'AI',
+            },
             kvNamespaces: ['MY_KV_1', 'MY_KV_2'],
         });
     });
